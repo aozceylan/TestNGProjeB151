@@ -21,14 +21,16 @@
             <version>7.7.1</version>
             <scope>test</scope>
         </dependency>
+        <!-- İLK ONCE SELENIUM-JAVA dependency'sini pom.xml dosyamıza mvnrepository.com adresinden alır koyarız  -->
+        <!-- Selenium-java sürücüleri kontrol etmek için gereken java sınıflarını ve methodlarını içerir -->
+        <!-- Tüm dependency leri dependencies tag'i içine koymamız gerekir -->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.8.3</version>
         </dependency>
-        <!-- Webdrivermanager; suruculeri yonetir ve proje icin gereken surucuyu otomatik olarak yukler -->
-
+        <!-- Webdrivermanager; sürücüleri yönetir ve proje için gereken sürücüyü otomatik olarak yükler -->
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
@@ -41,12 +43,24 @@
             <artifactId>poi</artifactId>
             <version>5.2.3</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.2.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 </project>
