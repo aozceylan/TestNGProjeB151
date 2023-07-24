@@ -7,5 +7,6 @@ public class TC01_AramaKutusuTesti {
     public void Test01() {
         System.out.println("test1");
         System.out.println("hersey güzel olacak");
+        //Amazon sayfasina gidilip arama kutusu test edildigit add
     }
 }
